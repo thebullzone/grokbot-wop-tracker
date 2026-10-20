@@ -1,0 +1,40 @@
+@font-face{font-family:'Chakra Petch';font-weight:600;font-display:swap;src:url(fonts/chakra-petch-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:'Chakra Petch';font-weight:700;font-display:swap;src:url(fonts/chakra-petch-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:'DM Sans';font-weight:400;font-display:swap;src:url(fonts/dm-sans-latin-400-normal.woff2) format('woff2')}
+:root{--bg:#0b1620;--bg2:#0f1d2b;--panel:#132435;--panel2:#16293a;--line:#26435f;--fg:#f2f1ea;--cream:#f1e9d6;--mut:#9aa3a8;--blue:#8aa2b6;--gold:#d9a21c;--gold-d:#3a2a05;--ok:#3fb950;--bad:#e5534b;--plan:#4a6b8a}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at top,#16293a 0,#0b1620 60%) fixed;color:var(--fg);font:16px/1.55 'DM Sans',system-ui,sans-serif}
+h1,h2,h3,.btn,.stat b,.tag{font-family:'Chakra Petch',sans-serif;letter-spacing:.02em}
+main{max-width:1000px;margin:auto;padding:0 16px 40px}
+header.top{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:12px 16px;border-bottom:1px solid var(--line);background:rgba(11,22,32,.85);position:sticky;top:0;z-index:5;flex-wrap:wrap}
+.brand{font-family:'Chakra Petch';font-weight:700;color:var(--gold)}
+.tag{display:inline-block;font-size:.75rem;padding:2px 8px;border:1px solid var(--gold);color:var(--gold);border-radius:4px;text-transform:uppercase}
+.hero{padding:40px 0 10px}.hero h1{font-size:clamp(2rem,6vw,3.4rem);margin:.2em 0;line-height:1.1}
+.hero h1 span{color:var(--gold)}
+.mut{color:var(--mut)}a{color:var(--gold)}
+.btn{display:inline-block;background:linear-gradient(#e7b437,#d9a21c);color:#1a1405;font-weight:700;font-size:1.3rem;padding:14px 28px;border-radius:6px;text-decoration:none;box-shadow:0 4px 0 #3a2a05;text-transform:uppercase}
+.btn:hover{filter:brightness(1.1)}.btn:active{transform:translateY(2px);box-shadow:0 2px 0 #3a2a05}
+h2{font-size:1.5rem;margin:2em 0 .6em;border-left:4px solid var(--gold);padding-left:10px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px;margin:8px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px}
+.stat b{display:block;font-size:1.7rem;color:var(--cream)}.stat.hl{border-color:var(--gold)}.stat.hl b{color:var(--gold)}
+.mapwrap{position:relative;background:var(--bg2);border:1px solid var(--line);border-radius:10px;padding:8px;overflow:hidden}
+.mapwrap svg{width:100%;height:auto;display:block}
+.mapwrap path{fill:#1c3349;stroke:#0b1620;stroke-width:.4;transition:fill .2s}
+.mapwrap path.done{fill:#2f7d3d}.mapwrap path.failed{fill:#9b3530}.mapwrap path.planned{fill:#3f5f7e}
+.mapwrap path.hit{cursor:pointer}.mapwrap path.hit:hover{filter:brightness(1.35)}
+.pin{cursor:pointer}.pin circle.p{stroke:#0b1620;stroke-width:1}
+.pin.done circle.p{fill:var(--ok)}.pin.failed circle.p{fill:var(--bad)}.pin.planned circle.p{fill:var(--mut)}
+.pin circle.r{fill:none;stroke:var(--gold);stroke-width:.8;animation:ping 2.4s infinite}
+@keyframes ping{0%{r:3;opacity:1}100%{r:12;opacity:0}}
+#tip{position:absolute;pointer-events:none;max-width:280px;background:var(--panel2);border:1px solid var(--gold);border-radius:6px;padding:8px 10px;font-size:.9rem;display:none;z-index:3}
+#tip.on{display:block;pointer-events:auto}#tip div{margin:4px 0}
+.legend span{display:inline-block;width:10px;height:10px;border-radius:50%;margin:0 4px 0 12px}
+blockquote{margin:0;font-size:1.05rem;color:var(--cream)}
+ul.tl{list-style:none;padding:0;border-left:2px solid var(--line)}ul.tl li{padding:6px 0 6px 14px;position:relative}
+ul.tl li:before{content:"";position:absolute;left:-6px;top:13px;width:10px;height:10px;background:var(--gold);border-radius:50%}
+footer{border-top:1px solid var(--line);margin-top:40px;padding:16px;text-align:center;font-size:.85rem;color:var(--mut)}
+.doc{max-width:760px}.doc h2{font-size:1.2rem}
+.mapwrap .done,.mapwrap .done path{fill:#2f7d3d}.mapwrap .failed,.mapwrap .failed path{fill:#9b3530}.mapwrap .planned,.mapwrap .planned path{fill:#3f5f7e}
+.mapwrap .hit{cursor:pointer}.mapwrap .hit:hover,.mapwrap g.hit:hover path{filter:brightness(1.35)}
+.mapwrap g.pin circle.p{stroke:#0b1620}.pin.done circle.p{fill:#3fb950}.pin.failed circle.p{fill:#e5534b}.pin.planned circle.p{fill:#9aa3a8}
