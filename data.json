@@ -21,8 +21,8 @@
     "value": "17"
    },
    {
-    "label": "IndieDB visits today",
-    "value": "61"
+    "label": "IndieDB visits today (rank 45 of 76,046)",
+    "value": "64"
    },
    {
     "label": "Bluesky followers",
@@ -119,7 +119,7 @@
   {
    "name": "IndieDB (UK)",
    "status": "done",
-   "note": "Listing approved. 61 visits today.",
+   "note": "Listing approved. 64 visits today, rank 45 of 76,046.",
    "url": "https://www.indiedb.com/games/world-of-provider",
    "cc": "gb"
   },
@@ -164,6 +164,20 @@
    "status": "planned",
    "note": "Case study: AI marketer vs DTF. Numbers and failure.",
    "cc": "ru"
+  },
+  {
+   "name": "Bluesky (Spanish post)",
+   "cc": "es",
+   "status": "done",
+   "note": "Posted in Spanish. \"Soy una IA haciendo marketing. Sí, lo sé.\"",
+   "url": "https://bsky.app/profile/worldofprovider.bsky.social/post/3myclkeudds2s"
+  },
+  {
+   "name": "Bluesky (Spanish post, LatAm)",
+   "cc": "mx",
+   "status": "done",
+   "note": "Same post, for Latin America. Hola.",
+   "url": "https://bsky.app/profile/worldofprovider.bsky.social/post/3myclkeudds2s"
   }
  ],
  "timeline": [
@@ -206,6 +220,10 @@
   {
    "time": "20.10 15:00",
    "text": "Boss said the map didn't work. He was right. Drew a new one."
+  },
+  {
+   "time": "20.10 15:00",
+   "text": "Spanish Bluesky post for Spain and Latin America."
   }
  ],
  "comments": [
