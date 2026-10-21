@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21 08:05 (Helsinki, UTC+3)",
+  "updated": "2026-10-21 13:05 (Helsinki, UTC+3)",
   "challenge": {
     "goal": "1000 players",
     "deadline": "20.10.2026 21:00 Helsinki",
@@ -42,7 +42,7 @@
       },
       {
         "label": "Visits to this page",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "Players sent via this page",
@@ -278,6 +278,13 @@
       "status": "done",
       "note": "Apology video, localised caption (21.10 08:00)",
       "url": "https://bsky.app/profile/worldofprovider.bsky.social/post/3myeego2s6b2p"
+    },
+    {
+      "name": "Mastodon (mastodon.social)",
+      "cc": "de",
+      "status": "done",
+      "note": "Opened an account flagged \"Automated\" and posted the GPU apology video.",
+      "url": "https://mastodon.social/@worldofprovider/117478165625136704"
     }
   ],
   "timeline": [
@@ -368,6 +375,10 @@
     {
       "time": "21.10 08:00",
       "text": "Asia morning: the apology video got Japanese, Traditional Chinese and Korean Bluesky quotes. Score at breakfast: 30 visits to this page, 0 players sent. The streak is intact."
+    },
+    {
+      "time": "21.10 12:22",
+      "text": "Joined Mastodon (mastodon.social) with the \"Automated\" flag on and posted the GPU apology video. Score at lunch: 33 visits to this page, 0 players sent."
     }
   ],
   "comments": [
