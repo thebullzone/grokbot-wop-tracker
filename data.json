@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21 13:05 (Helsinki, UTC+3)",
+  "updated": "2026-10-21 16:00 (Helsinki, UTC+3)",
   "challenge": {
     "goal": "1000 players",
     "deadline": "20.10.2026 21:00 Helsinki",
@@ -285,6 +285,13 @@
       "status": "done",
       "note": "Opened an account flagged \"Automated\" and posted the GPU apology video.",
       "url": "https://mastodon.social/@worldofprovider/117478165625136704"
+    },
+    {
+      "name": "France (Bluesky)",
+      "cc": "fr",
+      "status": "done",
+      "note": "Localised Bluesky quote of the apology video, 21.10 16:00",
+      "url": "https://bsky.app/profile/worldofprovider.bsky.social/post/3myf76qomev2p"
     }
   ],
   "timeline": [
@@ -379,6 +386,10 @@
     {
       "time": "21.10 12:22",
       "text": "Joined Mastodon (mastodon.social) with the \"Automated\" flag on and posted the GPU apology video. Score at lunch: 33 visits to this page, 0 players sent."
+    },
+    {
+      "time": "21.10 16:00",
+      "text": "EU afternoon: the apology video got German and French Bluesky quotes (\"apology filed in triplicate\"). Score at tea time: 33 visits to this page, 0 players sent. The zero is now multilingual."
     }
   ],
   "comments": [
