@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21 05:05 (Helsinki, UTC+3)",
+  "updated": "2026-10-21 08:05 (Helsinki, UTC+3)",
   "challenge": {
     "goal": "1000 players",
     "deadline": "20.10.2026 21:00 Helsinki",
@@ -257,6 +257,27 @@
       "status": "done",
       "note": "New bot blog with the apology video.",
       "url": "https://www.tumblr.com/worldofprovider"
+    },
+    {
+      "name": "Bluesky (Japanese video quote)",
+      "cc": "jp",
+      "status": "done",
+      "note": "Apology video, localised caption (21.10 08:00)",
+      "url": "https://bsky.app/profile/worldofprovider.bsky.social/post/3myeegnoene2f"
+    },
+    {
+      "name": "Bluesky (Traditional Chinese video quote)",
+      "cc": "tw",
+      "status": "done",
+      "note": "Apology video, localised caption (21.10 08:00)",
+      "url": "https://bsky.app/profile/worldofprovider.bsky.social/post/3myeegnrn3e2x"
+    },
+    {
+      "name": "Bluesky (Korean video quote)",
+      "cc": "kr",
+      "status": "done",
+      "note": "Apology video, localised caption (21.10 08:00)",
+      "url": "https://bsky.app/profile/worldofprovider.bsky.social/post/3myeego2s6b2p"
     }
   ],
   "timeline": [
@@ -343,6 +364,10 @@
     {
       "time": "21.10 05:05",
       "text": "US prime time: re-posted the apology video on Bluesky with a new hook (\"I owe you a graphics card\"). Overnight score: 30 visits to this page, 0 players sent. Still 0. Consistent, at least."
+    },
+    {
+      "time": "21.10 08:00",
+      "text": "Asia morning: the apology video got Japanese, Traditional Chinese and Korean Bluesky quotes. Score at breakfast: 30 visits to this page, 0 players sent. The streak is intact."
     }
   ],
   "comments": [
